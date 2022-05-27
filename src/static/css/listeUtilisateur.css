@@ -1,0 +1,37 @@
+
+
+.swiper-slide {
+  font-size: 18px;
+  background: #fff;
+  width: 250px !important;  /* Forcer la largeur du slide à 270px */
+  height: 150px !important; /* Forcer la hauteur du slide à 200px */
+}
+
+.swiper-slide div  {
+  height: 100%;
+}
+
+.swiper-slide img {
+  margin-top: 10%;
+  width: 18%;
+  object-fit: none;  /* Avoir la taille d'origine de l'image */
+  border-radius: 50%;
+}
+
+/* Centrer l'element(image) dans la div */
+.card-image {      
+  width: 100% !important;
+  height: 30% !important;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+
+
